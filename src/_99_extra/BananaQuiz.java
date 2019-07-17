@@ -19,10 +19,14 @@ public class BananaQuiz
 			//tell them they are crazy 
 			//and end quiz
 		//3. if they say yes
+		
 		if (behzad.contentEquals("yes") || behzad.contentEquals("Yes")) {
 			String beh = JOptionPane.showInputDialog("what is your hobby?");
+			JOptionPane.showMessageDialog(null, beh + " is much better with Bananas!");
+		}else  {
+			JOptionPane.showMessageDialog(null ,"You are bananas!�?");
 		}
-		JOptionPane.showMessageDialog(null, beh + " is much better with bananas!");
+		
 		//	ask them what is their favorite hobby
 		//	show a pop up that says "<your hobby> is much better with bananas!"
 
@@ -32,3 +36,4 @@ public class BananaQuiz
 	}
 
 }
+ 
