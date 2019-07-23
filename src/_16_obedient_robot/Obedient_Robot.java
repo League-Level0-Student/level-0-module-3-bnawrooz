@@ -62,11 +62,10 @@ public class Obedient_Robot {
 	
 	
       static void drawSquare() {
-	  
+      robot.setY(300);
 	  robot.setX(100);
 	  
 	  for (int i = 0; i < 4; i++) {
-	  
 	  robot.setSpeed(100);
 	  robot.penDown();
 	  robot.move(100);
@@ -77,11 +76,9 @@ public class Obedient_Robot {
 	  }
 	  
 	  static void drawTriangle() {
-		  
+		  robot.setY(300);
 		  robot.setX(250);
 		  for (int i = 0; i < 2; i++) {
-				
-			  
 			  robot.setSpeed(100);
 			  robot.penDown();
 			  robot.move(50);
@@ -92,7 +89,7 @@ public class Obedient_Robot {
 		  robot.setY(50);
 		  }
 	  	  static void drawCircle() {
-	  		robot.setY(0);
+	  		robot.setY(300);
 	  		robot.setX(400);
 	  		for (int i = 0; i < 33; i++) {
 				robot.setSpeed(100);
@@ -106,19 +103,7 @@ public class Obedient_Robot {
 	  
 	 
 	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+	 	  
 	  
 }
 
